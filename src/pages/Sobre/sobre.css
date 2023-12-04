@@ -1,0 +1,26 @@
+#sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh; /* Adjust as needed based on your layout */
+    color: white;
+}
+
+#sobre .wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:3rem;
+    background-color: #2C2C2C;
+    width: 80rem;
+    height: 40rem;
+    border-radius: 20px;
+}
+
+#sobre .content{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 20px;
+}

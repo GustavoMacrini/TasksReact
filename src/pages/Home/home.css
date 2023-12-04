@@ -1,0 +1,58 @@
+#home{
+    color: white;
+}
+
+#home .wrapper{
+    background-color: #2C2C2C;
+    padding: 1.5rem;
+    margin-top: 3rem;
+    width: min(120rem, 100%);
+    margin-inline: auto;
+    border-radius: 20px;
+}
+
+#home .title{
+    color: white;
+    font-size: 24px;
+}
+
+#home .export-json{
+    margin-block: 3rem;
+}
+
+#home .export-json button{
+    background-color: #0044B4;
+    cursor: pointer;
+    border: none;
+    padding-block: 0.5rem;
+    padding-inline: 0.5rem;
+    font-size: 16px;
+    color: white;
+    border-radius: 10px;
+}
+
+#home .export-json button:hover{
+    background-color: #0866FF;
+}
+
+#home h2{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+#home a{
+    color: white;
+    text-decoration: none;
+    background-color: #0044B4;
+    margin-right: 1rem;
+    padding-block: 0.5rem;
+    padding-inline: 0.5rem;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+#home a:hover{
+    background-color: #0866FF;
+}
+
+

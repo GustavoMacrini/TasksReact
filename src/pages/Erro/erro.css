@@ -1,0 +1,23 @@
+#erro{
+    background-color: var(--primary-color-light-3);
+    color: white;
+}
+
+#erro .wrapper{
+    width: 100%;
+    height: calc(100vh - 12rem);
+    padding-top: 3.6rem;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+#erro .title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

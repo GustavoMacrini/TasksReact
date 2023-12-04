@@ -1,0 +1,74 @@
+#login{
+    height: 25rem;
+    width: 30rem;
+    padding: 3rem;
+    border-radius: 20px;
+    background-color: #0866FF;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#login form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+}
+
+#login .info{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+#login .email, #login .senha{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 20px;
+    gap: 0.5rem;
+}
+
+#login input{
+    width: 20rem;
+    height: 2rem;
+    border-radius: 20px;
+    padding-inline: 1rem;
+    font-size: 20px;
+}
+
+
+#login .submit-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+#login .submit-button a {
+    color: white;
+}
+
+#login .submit-button a:hover{
+    color: #0044B4;
+}
+
+
+#login button{
+    background-color: #0044B4;
+    font-size: 20px;
+    color: white;
+    border: 1px solid white;
+    padding-inline: 1rem;
+    padding-block: 0.5rem;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#login button:hover{
+    background-color: transparent;
+}

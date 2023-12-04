@@ -1,0 +1,57 @@
+#header{
+    background-color: #0866FF;
+}
+
+#header *{
+    color: white;
+}
+
+#header .wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-block: 1rem;
+    padding-inline: 10rem;
+    
+}
+
+#header .links{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+}
+
+#header .login{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;    
+    border-radius: 10px;
+    background-color: #0044B4;
+    
+}
+
+#header .login:hover{
+    background-color: transparent;
+}
+
+
+
+#header .login a{
+    padding-inline: 1rem;
+    padding-block: 0.5rem;
+    border: 1px solid white;
+    border-radius: 10px;
+    
+}
+
+
+#header a{
+    text-decoration: none;
+}
+
+#header h1:hover{
+    color: #0044B4;
+}
+

@@ -1,0 +1,55 @@
+#cardCriar .wrapper{
+    background-color: #2C2C2C;
+    padding: 1.5rem;
+    margin-top: 3rem;
+    width: min(120rem, 100%);
+    margin-inline: auto;
+    border-radius: 20px;
+}
+
+#cardCriar form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+#cardCriar .item{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    color: white;
+    font-size: 24px;
+}
+
+#cardCriar input{
+    width: 20rem;
+    height: 2rem;
+    border-radius: 20px;
+    padding-inline: 1rem;
+    font-size: 20px;
+}
+
+#cardCriar button{
+    background-color: #0044B4;
+    cursor: pointer;
+    border: none;
+    padding-block: 1rem;
+    padding-inline: 2rem;
+    font-size: 16px;
+    color: white;
+    border-radius: 10px;
+}
+
+#cardCriar button:hover{
+    background-color: #0866FF;
+}
+
+#cardCriar .cadastradas{
+    color: white;
+}
+
+#cardCriar .cadastradas h1{
+    margin-top: 1rem;
+    margin-bottom: 0.25rem;
+}

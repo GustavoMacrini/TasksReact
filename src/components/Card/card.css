@@ -1,0 +1,76 @@
+#card .wrapper{
+    background-color: white;
+    width: 15rem;
+    height: 20rem;
+    border-radius: 20px 20px 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#card h1, #card p{
+    padding-inline: 1rem;
+}
+
+#card .top-content, #card .bottom-content{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+#card .title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+    background-color: #0866FF;
+    color: white;
+    border-radius: 20px 20px 0 0;    
+}
+
+#card .description{
+    overflow: hidden;
+    height: 12rem;
+}
+
+#card .detalhes{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+#card .footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #0866FF;
+    border-radius: 0 0 20px 20px ;
+    padding: 0.5rem;
+}
+
+#card .arrow, #card .close{
+    display: flex;    
+    align-items: center;
+    color: white;
+}
+
+#card .close svg, #card .arrow svg{
+    cursor: pointer;
+}
+#card .close svg:hover, #card .arrow svg:hover{
+    color: #3B00AE;
+}
+
+#card .close svg{    
+    font-size: 3rem;  
+    margin-left: 0.5rem;      
+}
+
+#card .close-hidden{
+    visibility: hidden;
+}
+
+#card .arrow svg{
+    font-size: 2rem;    
+}

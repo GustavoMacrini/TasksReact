@@ -1,0 +1,32 @@
+#fazer .wrapper-content{
+    background-color: #2C2C2C;
+    padding: 1.5rem;
+    margin-top: 3rem;
+    width: min(120rem, 100%);
+    margin-inline: auto;
+    border-radius: 20px;
+}
+
+#fazer .title-fazer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+    padding-block: 2rem;
+}
+
+#fazer .filtros{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+#fazer .filtros input{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+

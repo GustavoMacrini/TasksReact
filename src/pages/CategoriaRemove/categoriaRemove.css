@@ -1,0 +1,57 @@
+#categoriaRemove .wrapper{
+    background-color: #2C2C2C;
+    padding: 1.5rem;
+    margin-top: 3rem;
+    width: min(120rem, 100%);
+    margin-inline: auto;
+    border-radius: 20px;
+}
+
+#categoriaRemove form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+#categoriaRemove .item{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    color: white;
+    font-size: 24px;
+}
+
+#categoriaRemove input{
+    width: 20rem;
+    height: 2rem;
+    border-radius: 20px;
+    padding-inline: 1rem;
+    font-size: 20px;
+}
+
+#categoriaRemove button{
+    background-color: #0044B4;
+    cursor: pointer;
+    border: none;
+    padding-block: 1rem;
+    padding-inline: 2rem;
+    font-size: 16px;
+    color: white;
+    border-radius: 10px;
+}
+
+#categoriaRemove button:hover{
+    background-color: #0866FF;
+}
+
+#categoriaRemove h2{
+    color: white;
+}
+
+#categoriaRemove .cadastradas{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 0.5rem;
+}
